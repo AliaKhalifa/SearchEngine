@@ -73,11 +73,11 @@ public class Indexer {
     
    public static void main(String[] args) throws IOException
     {
-            ArrayList<MyPair> words = new ArrayList<>();  
-            ArrayList<String> tags = new ArrayList<>();  
-            ArrayList<String> stopWords = new ArrayList<>(); 
-            ArrayList<WordDetails> allWords = new ArrayList<>(); 
-            int occurrence;
+             ArrayList<MyPair> words = new ArrayList<>();  
+             ArrayList<String> tags = new ArrayList<>();  
+             ArrayList<String> stopWords = new ArrayList<>(); 
+             ArrayList<WordDetails> allWords = new ArrayList<>(); 
+             int occurrence;
             
              // ------------------------ Reading stop words from the .txt file ------------------------ //
               try {
